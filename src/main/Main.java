@@ -18,7 +18,7 @@ import views.ViewPrincipal;
 
 public class Main {
     
-    public static void main(String ctj[]){
+    public static void main(String ect[]){
         ModelMayor model_mayor = new ModelMayor();
         ViewMayor view_mayor = new ViewMayor();
         ControllerMayor controller_mayor = new ControllerMayor(model_mayor,view_mayor);
